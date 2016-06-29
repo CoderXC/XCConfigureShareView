@@ -12,17 +12,17 @@
 // 测试 - AppKey
 
 // 友盟AppKey
-#define K_UM_AppKey      @"55a4c32567e58e0de20035a2"
+#define K_UM_AppKey      @"53290df956240b6b4a0084b3"
 
 /*sina*/
-#define K_Sina_AppKey    @"1576918936"
-#define K_Sina_AppSecret @"9e7cc97802d7188d824a6b2031f3d17e"
+#define K_Sina_AppKey    @"3921700954"
+#define K_Sina_AppSecret @"04b48b094faeb16683c32669824ebdad"
 /*QQ*/
-#define K_QQ_AppId       @"1103282484"
-#define K_QQ_AppKey      @"APMyBXD2bu2KoVZo"
+#define K_QQ_AppId       @"100424468"
+#define K_QQ_AppKey      @"c7394704798a158208a74ab60104f0ba"
 /*微信*/
-#define K_WX_AppID       @"wxa1e5dfe7ee8b5af9"
-#define K_WX_AppSecret   @"efcba398e449a5fd4b2a3bcdc8f1c4f8"
+#define K_WX_AppID       @"wxdc1e388c3822c80b"
+#define K_WX_AppSecret   @"a393c1527aaccb95f3a4c88d6d1455f6"
 
 #define K_Share_Url      @"http://www.umeng.com/social"
 
