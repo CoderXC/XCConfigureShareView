@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "XCShareManager.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    XCShareManager * manager = [XCShareManager defaultManager];
+    [manager setShareVC:self content:@"测试分享" image:[UIImage imageNamed:@"test"] urlStr:@"https://github.com/CoderXC"];
+    [manager showSharePanel];
 }
 
 - (void)didReceiveMemoryWarning {
